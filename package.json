@@ -26,5 +26,14 @@
     "presets": [
       "react"
     ]
-  }
+  },
+  "keywords": [
+    "browser",
+    "react",
+    "gauge",
+    "coffee",
+    "gauge.js",
+    "component",
+    "bernii"
+  ]
 }
