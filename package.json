@@ -1,0 +1,30 @@
+{
+  "name": "gauge-coffee-react",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/6e656d6d61/gauge-coffee-react",
+  "author": "Nicolas-Emmanuel Robert",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --config ./webpack.config.js --mode=development --watch",
+    "dev": "./node_modules/.bin/webpack --config ./webpack.config.js --mode=development",
+    "build": "./node_modules/.bin/webpack --config ./webpack.config.js --mode=production"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}
