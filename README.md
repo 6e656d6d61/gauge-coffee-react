@@ -4,6 +4,8 @@
 
 A react wrapper for [gauge.coffee](https://bernii.github.io/gauge.js/)
 
+![Example](./imgs/example.png)
+
 |Name             |Description                |Type     |
 |:---------------:|:-------------------------:|:-------:|
 |`value`          |The value of the gauge     |`number` |
