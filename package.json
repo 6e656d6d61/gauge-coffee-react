@@ -1,6 +1,6 @@
 {
   "name": "gauge-coffee-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": "https://github.com/6e656d6d61/gauge-coffee-react",
   "author": "Nicolas-Emmanuel Robert",
