@@ -30,7 +30,10 @@ class GaugeWrapper extends Component {
 }
 
 GaugeWrapper.propTypes = {
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
   value: PropTypes.number.isRequired,
+  options: PropTypes.object,
   maxValue: PropTypes.number,
   minValue: PropTypes.number,
   animationSpeed: PropTypes.number
