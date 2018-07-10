@@ -6,9 +6,11 @@ A react wrapper for [gauge.coffee](https://bernii.github.io/gauge.js/)
 
 ![Example](./imgs/example.png)
 
-|Name             |Description                |Type     |
-|:---------------:|:-------------------------:|:-------:|
-|`value`          |The value of the gauge     |`number` |
-|`maxValue`       |Max value of the gauge     |`number` |
-|`minValue`       |Min value of the gauge     |`number` |
-|`animationSpeed` |The speed of the animation |`number` |
+|Name             |Description                |Type     |Required |
+|:---------------:|:-------------------------:|:-------:|:-------:|
+|`value`          |The value of the gauge     |`number` |`true`   |
+|`width`          |Width of the gauge         |`number` |`true`   |
+|`height`         |Height of the gauge        |`number` |`true`   |
+|`maxValue`       |Max value of the gauge     |`number` |`false`  |
+|`minValue`       |Min value of the gauge     |`number` |`false`  |
+|`animationSpeed` |The speed of the animation |`number` |`false`  |
